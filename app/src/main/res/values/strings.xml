@@ -12,7 +12,8 @@
     <string name="tv_password">Password</string>
     <string name="et_password">Enter your new Password</string>
     <string name="tv_confirmPassword">Confirm Password</string>
-    <string name="et_fName">Enter your First Name</string>
+    <string name="et_confirmPassword">Enter your First Name</string>
     <string name="tv_fName">First Name</string>
     <string name="et_fName">Enter your First Name</string>
+    <string name="bt_submit">SUBMIT</string>
 </resources>

@@ -34,6 +34,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        et_first_name = findViewById(R.id.et_first_name);
+        et_last_name = findViewById(R.id.et_last_name);
+        et_gender = findViewById(R.id.et_gender);
+        et_date_of_birth = findViewById(R.id.et_date_of_birth);
+        et_email_id = findViewById(R.id.et_email_id);
+        et_password = findViewById(R.id.et_password);
+        et_confirm_password = findViewById(R.id.et_confirm_password)
         btn_signup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

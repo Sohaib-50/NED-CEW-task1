@@ -61,7 +61,8 @@ public class MainActivity extends AppCompatActivity {
         Matcher matcher = pattern.matcher(email_id);
         if (! matcher.matches())
         {
-            Toast.makeText(MainActivity.this, "Please enter a valid email id", Toast.LENGTH_SHORT).show();
+            Toast.makeText(MainActivity.this, "Please enter a valid email id",
+                    Toast.LENGTH_SHORT).show();
             return;
         }
 
@@ -70,11 +71,21 @@ public class MainActivity extends AppCompatActivity {
         String password2 = et_confirm_password.getText().toString();
         if (! password1.equals(password2))
         {
-            Toast.makeText(MainActivity.this, "Passwords don't match. Please re-enter", Toast.LENGTH_SHORT).show();
+            Toast.makeText(MainActivity.this, "Passwords don't match. Please re-enter",
+                    Toast.LENGTH_SHORT).show();
             et_password.setText("");
             et_confirm_password.setText("");
             return;
         }
+
+
+        // If all above checks pass
+        String first_name = et_first_name.getText().toString();
+        String last_name = et_last_name.getText().toString();
+        Toast.makeText(MainActivity.this,
+                "You have successfully signed up," + first_name + " " + last_name + "!",
+                Toast.LENGTH_LONG).show();
+
 
 
     }

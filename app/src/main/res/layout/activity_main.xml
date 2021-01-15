@@ -138,14 +138,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=""
+            android:text="@string/tv_confirmPassword"
             android:textSize="20dp"/>
 
         <EditText
             android:id="@+id/et_confirm_password"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:hint="Confirm your password"
+            android:hint="@string/et_confirmPassword"
             android:inputType="textPassword"
             android:layout_marginLeft="5dp"/>
     </TableRow>
@@ -153,7 +153,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="12dp"
-        android:text="SUBMIT"
+        android:text="@string/bt_submit"
         android:padding="2dp" />
 
 </TableLayout>

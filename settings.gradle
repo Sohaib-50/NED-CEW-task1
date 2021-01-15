@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "CEW task1 CS19_096_079"

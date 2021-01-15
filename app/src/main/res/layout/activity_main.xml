@@ -12,7 +12,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="User SignUp Page"
+        android:text="@string/tv_main"
         android:textSize="20dp"
         android:padding="10dp"
         android:background="@color/cardview_dark_background"
@@ -26,14 +26,14 @@
             android:id="@+id/et_first_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="First Name"
+            android:text="@string/tv_fName"
             android:textSize="20dp"
             />
 
         <EditText
             android:layout_width="240dp"
             android:layout_height="wrap_content"
-            android:hint="Enter your First Name"
+            android:hint="@string/et_fName"
             android:inputType="text"
             android:textSize="20dp"
             android:layout_marginLeft="5dp"
@@ -45,13 +45,13 @@
             android:id="@+id/et_last_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Last Name"
+            android:text="@string/tv_lName"
             android:textSize="20dp"/>
 
         <EditText
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:hint="Enter your Last Name"
+            android:hint="@string/et_lName"
             android:inputType="text"
             android:layout_marginLeft="5dp"/>
     </TableRow>
@@ -61,13 +61,13 @@
             android:id="@+id/et_gender"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Gender"
+            android:text="@string/tv_gender"
             android:textSize="20dp"/>
 
         <EditText
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:hint="Enter your Gender"
+            android:hint="@string/et_gender"
             android:inputType="text"
             android:layout_marginLeft="5dp">
 <!--            <CheckBox-->
@@ -90,13 +90,13 @@
             android:id="@+id/et_date_of_birth"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Date of Birth"
+            android:text="@string/tv_dateOfBirth"
             android:textSize="20dp"/>
 
         <EditText
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:hint="Enter your Date of Birth"
+            android:hint="@string/et_dateOfBirth"
             android:inputType="date"
             android:layout_marginLeft="5dp"/>
     </TableRow>
@@ -106,13 +106,13 @@
             android:id="@+id/et_email_id"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Email ID"
+            android:text="@string/tv_emailID"
             android:textSize="20dp"/>
 
         <EditText
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:hint="Enter your Email ID"
+            android:hint="@string/et_emailID"
             android:inputType="textEmailAddress"
             android:layout_marginLeft="5dp"/>
     </TableRow>
@@ -122,13 +122,13 @@
             android:id="@+id/et_password"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Password"
+            android:text="@string/tv_password"
             android:textSize="20dp"/>
 
         <EditText
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:hint="Enter new Password"
+            android:hint="@string/et_password"
             android:inputType="textPassword"
             android:layout_marginLeft="5dp"
             />
@@ -139,7 +139,7 @@
             android:id="@+id/et_confirm_password"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Confirm Password"
+            android:text=""
             android:textSize="20dp"/>
 
         <EditText

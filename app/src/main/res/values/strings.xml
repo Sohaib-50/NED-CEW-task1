@@ -1,3 +1,18 @@
 <resources>
-    <string name="app_name">CEW task1 CS19_096_079</string>
+    <string name="app_name">Task 1</string>
+    <string name="tv_main">User SignUp Page</string>
+    <string name="tv_lName">Last Name</string>
+    <string name="et_lName">Enter your Last Name</string>
+    <string name="tv_gender">Gender</string>
+    <string name="et_gender">Enter your Gender</string>
+    <string name="tv_dateOfBirth">Date of Birth</string>
+    <string name="et_dateOfBirth">Enter your Date of Birth</string>
+    <string name="tv_emailID">Email ID</string>
+    <string name="et_emailID">Enter your Email ID</string>
+    <string name="tv_password">Password</string>
+    <string name="et_password">Enter your new Password</string>
+    <string name="tv_confirmPassword">Confirm Password</string>
+    <string name="et_fName">Enter your First Name</string>
+    <string name="tv_fName">First Name</string>
+    <string name="et_fName">Enter your First Name</string>
 </resources>
